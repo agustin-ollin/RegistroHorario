@@ -6,4 +6,6 @@ import java.time.LocalDate
  * Agregar descripción
  */
 data class Period(private val initialDate: LocalDate,
-                  private val finalDate: LocalDate)
+                  private val finalDate: LocalDate,
+                  private val description: String
+)
