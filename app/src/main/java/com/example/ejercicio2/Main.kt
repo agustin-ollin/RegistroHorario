@@ -71,6 +71,7 @@ fun main(){
 
     println("La antiguedad del empleado ${employee.fullName} es: ${employee.getSeniority()}")
     println("Faltas: ${incident.getAbsences()}")
+    println("Retardos: ${incident.getRetardant()}")
 }
 
 @RequiresApi(Build.VERSION_CODES.O)
